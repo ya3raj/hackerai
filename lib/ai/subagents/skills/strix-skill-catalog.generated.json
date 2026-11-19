@@ -1,6 +1,6 @@
 {
   "sourceRepository": "https://github.com/usestrix/strix.git",
-  "sourceCommit": "fe3b30ea8f424c1bd2ddc0433b539dd6637ee5f1",
+  "sourceCommit": "8db295a5b3564be2b430bb3a9afdb4db7850fa24",
   "skills": [
     {
       "id": "analysis/counterevidence",
@@ -96,10 +96,10 @@
       "filename": "root_agent",
       "name": "root-agent",
       "description": "Orchestration layer that coordinates specialized subagents for security assessments",
-      "contentBytes": 5911,
+      "contentBytes": 6626,
       "internal": true,
       "sourcePath": "coordination/root_agent.md",
-      "sourceSha256": "fe5ba2d54a231e563ff925f1f0389238096cc688cef3715df2ab6769f79f26aa"
+      "sourceSha256": "c483d320e2cc8fdbc3fc6204e46baf2c71f8ad5db6c5315707335e878e506206"
     },
     {
       "id": "coordination/source_aware_whitebox",
@@ -199,6 +199,17 @@
       "internal": false,
       "sourcePath": "frameworks/nextjs.md",
       "sourceSha256": "7b4d3d0e26b944800ae5b01ed79908f1d532360cf356941ce8954501e538b8a0"
+    },
+    {
+      "id": "frameworks/springboot",
+      "category": "frameworks",
+      "filename": "springboot",
+      "name": "springboot",
+      "description": "Security testing playbook for deployed or source-available Spring Boot services, including Spring MVC/WebFlux, Spring Security, REST controllers, Actuator, Spring Data REST, Jackson serialization, SpEL, outbound clients, and session management. Use when Spring Boot runtime or configuration is confirmed; first identify the MVC/WebFlux mode, active security chains, method-security wiring, management exposure, profiles, and resolved dependency versions. Covers authentication, authorization, CSRF/CORS, Actuator exposure, path matching, DTO over-binding, validation, deserialization, SSRF, session controls, and Spring-specific configuration flaws.",
+      "contentBytes": 10949,
+      "internal": false,
+      "sourcePath": "frameworks/springboot.md",
+      "sourceSha256": "51abf2cbcfdf87050d914000768ea4d748e074d302b263d74d7a9299f182746d"
     },
     {
       "id": "protocols/graphql",
